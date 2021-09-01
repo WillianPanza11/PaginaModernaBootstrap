@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <font face="Edwardian Script ITC" size="10">Pluma</font>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <!--ml-auto alinea a la derecha-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero py-6">
+        <div class="container">
+            <div class="text-center w-75 mx-auto mb-5">
+                <h1 class="display-4 mb-3">Somos expertos en creación de <span class="font-weight-bold">webs</span>
+                </h1>
+                <p class="lead text-muted mb-5">Creo tu pagina web</p>
+                <a href="" class="btn btn-dark mr-2 mb-4">Esto es lo se ha hecho</a>
+                <a href="" class="btn btn-outline-dark mb-4">contacto</a>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item mr-4"> <small><i class="icon ion-md-checkmark mr1"></i> Reat</small>
+                    </li>
+                    <li class="list-inline-item mr-4"> <small><i class="icon ion-md-checkmark mr1"></i>Django</small>
+                    </li>
+                    <li class="list-inline-item"> <small><i class="icon ion-md-checkmark mr1"></i>AWS</small></li>
+                </ul>
+            </div>
+            <center>
+                <!-- Button trigger modal enlazado-->
+                <button class="position-relative d-flex justify-content-center align-items-center border-0 p-0"
+                    data-toggle="modal" data-target="#exampleModal">
+                    <div class="play-icon position-absolute bg-dark rounded-circle d-flex">
+                        <i class="icon ion-md-play text-light align-self-center mx-auto"></i>
+                    </div>
+                    <img src="images/pluma.jpg" alt="No hay imagen" class="img-fluid" width="50%">
+                </button>
+            </center>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="video-container">
+                    <iframe width="800" height="450" src="" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <!--Forma de incrustar un vide es con el embed/seguido del codigo https://www.youtube.com/embed/5Fs2wIO3g3E-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-6 bg-grey">
+        <div class="container">
+            <h2 class="font-weight-bold mb-0">Nuestro equipo</h2>
+            <p class="lead text-muted mb-5">Este es un equipo de expertos en la web</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="my-3">
+                        <div class="position-absolute member-info text-light">
+                            <h6 class="font-weight-bold mb-0">WILLIAN PANZA</h6>
+                            <small>Programador/Desarrolloador</small>
+                        </div>
+                        <img src="images/desarro.jfif" alt="No hay imagen" width="300px" height="250px">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="my-3">
+                        <div class="position-absolute member-info text-light">
+                            <h6 class="font-weight-bold mb-0">FREDY</h6>
+                            <small>Programador/Desarrolloador</small>
+                        </div>
+                        <img src="images/prog.jpg" alt="No hay imagen" width="300px" height="250px">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div>
+                        <h2 class="font-weight-bold mb-4">Estamso en busca de gente apasionada en el desarrollo</h2>
+                        <p class="text-muted mb-4">Somos un equiipo conformado por los mejores de este ambito</p>
+                        <a href="#" class="btn btn-dark">Aplica ahora, no piedres nada en intentarlo
+                            <i class="icon ion-md-arrow-forward align-middle ml-2">
+
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 bg-grey">
+        <div class="container">
+            <h2 class="font-weight-bold mb-0">Lista de planes</h2>
+            <p class="lead text-muted mb-5">Planes diseños a tu madida</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 my-3">
+                        <div class="card-header bg-light border-0 p-4">
+                            <!--border-0 es para quitar la media linea del card-->
+                            <h5 class="font-weight-bold mb-3">Personal</h5>
+                            <h2 class="display-4 font-weight-bold">$0</h2>
+                            <span class="badge badge-secondary">Mensual</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="font-weight-bold">Ideal para freee</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Sitio web
+                                        responsive</small></li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Optimizacion</small>
+                                </li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Hosting
+                                        ilimitado</small></li>
+                                <li class="text-muted mb-2"><small><i class="icon ion-md-close mr-2"></i>Tienda en
+                                        linea</small></li>
+                                <li class="text-muted"><small><i class="icon ion-md-close mr-2"></i>Certificado de
+                                        seguridad</small></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-light border-0 text-center p-4">
+                            <a href="#" class="btn btn-dark d-block md-3">Comienza ahora <i
+                                    class="icon ion-md-arrow-forward align-middle ml-2"></i></a>
+                            <small class="text-muted">7 días de prueba sin paga</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 my-3">
+                        <div class="card-header bg-light border-0 p-4">
+                            <!--border-0 es para quitar la media linea del card-->
+                            <h5 class="font-weight-bold mb-3">Personal</h5>
+                            <h2 class="display-4 font-weight-bold">$0</h2>
+                            <span class="badge badge-secondary">Mensual</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="font-weight-bold">Ideal para freee</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Sitio web
+                                        responsive</small></li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Optimizacion</small>
+                                </li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Hosting
+                                        ilimitado</small></li>
+                                <li class="text-muted mb-2"><small><i class="icon ion-md-close mr-2"></i>Tienda en
+                                        linea</small></li>
+                                <li class="text-muted"><small><i class="icon ion-md-close mr-2"></i>Certificado de
+                                        seguridad</small></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-light border-0 text-center p-4">
+                            <a href="#" class="btn btn-dark d-block md-3">Comienza ahora <i
+                                    class="icon ion-md-arrow-forward align-middle ml-2"></i></a>
+                            <small class="text-muted">7 días de prueba sin paga</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 my-3">
+                        <div class="card-header bg-light border-0 p-4">
+                            <!--border-0 es para quitar la media linea del card-->
+                            <h5 class="font-weight-bold mb-3">Personal</h5>
+                            <h2 class="display-4 font-weight-bold">$0</h2>
+                            <span class="badge badge-secondary">Mensual</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="font-weight-bold">Ideal para freee</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Sitio web
+                                        responsive</small></li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Optimizacion</small>
+                                </li>
+                                <li class="mb-2"><small><i class="icon ion-md-checkmark mr-2"></i>Hosting
+                                        ilimitado</small></li>
+                                <li class="text-muted mb-2"><small><i class="icon ion-md-close mr-2"></i>Tienda en
+                                        linea</small></li>
+                                <li class="text-muted"><small><i class="icon ion-md-close mr-2"></i>Certificado de
+                                        seguridad</small></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-light border-0 text-center p-4">
+                            <a href="#" class="btn btn-dark d-block md-3">Comienza ahora <i
+                                    class="icon ion-md-arrow-forward align-middle ml-2"></i></a>
+                            <small class="text-muted">7 días de prueba sin paga</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 bg-light">
+        <div class="container">
+            <h2 class="font-weight-bold mb-0">Noticas recientes</h2>
+            <p class="lead text-muted mb-5">Lo mas destacado hoy en el pais</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 bg-grey my-3">
+                        <div class="card-header d-flex b-grey p-4 border-0">
+                            <!--d-flex se pone el imagen en la misma linea de las letras -->
+                            <div>
+                                <img src="images/noticias.jpg" alt="no hay imagen"
+                                    class="img-fluid user rounded-circle">
+                                <!--rounded-circel para hacer la imagen redondda-->
+                            </div>
+                            <div class="align-self-center ml-2">
+                                <!--para centrar, ml-2 pra poner un margen-->
+                                <small class="d-block">Publicado por <span class="font-weight-bold">Willian</span>
+                                </small>
+                                <small class="d-block">16 Abril 2021</small>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <small class="d-block mb-3">Emprendimiento</small>
+                            <h4 class="font-weight-bold">como reducir los costos de envio </h4>
+                        </div>
+                        <div class="card-footer bg-grey p-4 border-0">
+                            <a href="#" class="text-dark"><small>Ver mas...<i
+                                        class="icon ion-md-arrow-forward align-middle ml-2"></i></small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 bg-grey my-3">
+                        <div class="card-header d-flex b-grey p-4 border-0">
+                            <!--d-flex se pone el imagen en la misma linea de las letras -->
+                            <div>
+                                <img src="images/noticias.jpg" alt="no hay imagen"
+                                    class="img-fluid user rounded-circle">
+                                <!--rounded-circel para hacer la imagen redondda-->
+                            </div>
+                            <div class="align-self-center ml-2">
+                                <!--para centrar, ml-2 pra poner un margen-->
+                                <small class="d-block">Publicado por <span class="font-weight-bold">Willian</span>
+                                </small>
+                                <small class="d-block">16 Abril 2021</small>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <small class="d-block mb-3">Emprendimiento</small>
+                            <h4 class="font-weight-bold">como reducir los costos de envio </h4>
+                        </div>
+                        <div class="card-footer bg-grey p-4 border-0">
+                            <a href="#" class="text-dark"><small>Ver mas...<i
+                                        class="icon ion-md-arrow-forward align-middle ml-2"></i></small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 rounded-0 bg-grey my-3">
+                        <div class="card-header d-flex b-grey p-4 border-0">
+                            <!--d-flex se pone el imagen en la misma linea de las letras -->
+                            <div>
+                                <img src="images/noticias.jpg" alt="no hay imagen"
+                                    class="img-fluid user rounded-circle">
+                                <!--rounded-circel para hacer la imagen redondda-->
+                            </div>
+                            <div class="align-self-center ml-2">
+                                <!--para centrar, ml-2 pra poner un margen-->
+                                <small class="d-block">Publicado por <span class="font-weight-bold">Willian</span>
+                                </small>
+                                <small class="d-block">16 Abril 2021</small>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <small class="d-block mb-3">Emprendimiento</small>
+                            <h4 class="font-weight-bold">como reducir los costos de envio </h4>
+                        </div>
+                        <div class="card-footer bg-grey p-4 border-0">
+                            <a href="#" class="text-dark"><small>Ver mas...<i
+                                        class="icon ion-md-arrow-forward align-middle ml-2"></i></small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-grey py-6">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="font-weight-bold md-0">Momento de emprezar el proyecto</h2>
+                <p class="lead text-muted mb-4">No piedas la oportunidad ni el tiempo</p>
+                <a href="#" class="btn btn-dark mb-4">Agenda una demo</a>
+                <a href="#" class="btn btn-outline-dark mb-4">Contactanos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light boder-top">
+        <div class="row no-gutters">
+            <div class="col-lg-3 cold-md-12 py-4 text-center border-right border-bottom">
+                <small><a href="#" class="text-dark"><i class="icon ion-logo-instagram lead mr-3 align-middle"></i>Instagram</a></small>
+            </div>
+            <div class="col-lg-3 cold-md-12 py-4 text-center border-right border-bottom">
+                <small><a href="#" class="text-dark"><i class="icon ion-logo-facebook lead mr-3 align-middle"></i>Facebook</a></small>
+            </div>
+            <div class="col-lg-3 cold-md-12 py-4 text-center border-right border-bottom">
+                <small><a href="#" class="text-dark"><i class="icon ion-logo-linkedin lead mr-3 align-middle"></i>LinkedIn</a></small>
+            </div>
+            <div class="col-lg-3 cold-md-12 py-4 text-center border-bottom">
+                <small><a href="#" class="text-dark"><i class="icon ion-logo-youtube lead mr-3 align-middle"></i>Youtube</a></small>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="w-75">
+                <h2 class="font-weight-bold mb-0"> Tienes una idea <br> que desea llevara a cabo</h2>
+                <p class="text-muted">Queres escuchar tu proyecto para ayudarte a generar</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mb-5">
+                        <h6 class="font-weight-bold mb-0">Ubicacion de las oficinas</h6>
+                        <small class="text-muted">Paseso de la reforma 298</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="mb-5">
+                        <h6 class="font-weight-bold mb-0">Ubicacion de las oficinas</h6>
+                        <small class="text-muted">Paseso de la reforma 298</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="mb-5">
+                        <h6 class="font-weight-bold mb-0">Ubicacion de las oficinas</h6>
+                        <small class="text-muted">Paseso de la reforma 298</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-4 border-top">
+                <div class="col-lg-6">
+                    <small><span class="font-weight-bold"> 2020</span> webook creado</small>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-4"><a href="" class="text-dark lead"><i class="icon ion-logo-instagram"></i></a></li><!--mr-4 marge a la derecha-->
+                        <li class="list-inline-item mr-4"><a href="" class="text-dark lead"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li class="list-inline-item mr-4"><a href="" class="text-dark lead"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item mr-4"><a href="" class="text-dark lead"><i class="icon ion-logo-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
